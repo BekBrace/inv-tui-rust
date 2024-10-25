@@ -1,5 +1,6 @@
 
 # Inventory Management System
+![image](https://github.com/user-attachments/assets/fa43f3d6-4b80-4181-b363-490ab55695f3)
 
 A simple, text-based Inventory Management application built with Rust and the Cursive library. This tool allows users to add, view, and delete products in an inventory, with persistent data stored in a JSON file.
 
