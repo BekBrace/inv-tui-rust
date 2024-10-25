@@ -1,12 +1,3 @@
-// Hey, what's going on everyone? Welcome back to the BackBrace channel! My name is Amir, and I’m excited to have you here today. In this tutorial, we’re going to build a robust inventory management system using Rust and the Cursive library. With this system, you’ll be able to easily store, view, and delete items, making it a handy tool for anyone who needs to keep track of inventory!
-
-// Before we dive into the code, I want to take a moment to thank all of you for your amazing support. Whether you’re leaving comments, hitting that like button, or just tuning in to watch my videos, it means the world to me! Your engagement helps the channel grow and motivates me to create more content. If you’re new here, don’t forget to subscribe and turn on notifications so you can stay updated with our latest projects.
-
-// Today’s project will cover key concepts in Rust programming, including how to work with structs, serialization, and using a user-friendly interface with Cursive. So grab your coffee, open your vscode and let’s get started!
-
-
-// Before we start coding, I want to say This app is multi-threaded, as it uses Arc and Mutex from the Rust standard library. The Arc (Atomic Reference Counting) allows multiple threads to have shared ownership of the data (in this case, the inventory products), and Mutex ensures that only one thread can access the data at a time to prevent race conditions. So, although the code itself doesn’t explicitly spawn new threads, it's structured in a way that allows safe concurrent access, making it thread-safe and ready for multi-threading if you decide to extend it further.
-
 // Import necessary modules from the Cursive library for creating a text-based UI.
 use cursive::views::{Dialog, EditView, ListView}; // Import Dialog, EditView, and ListView for the UI components.
 use cursive::{Cursive, CursiveExt}; // Import Cursive for creating and managing the application.
