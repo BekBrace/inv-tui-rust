@@ -13,7 +13,7 @@ A simple, text-based Inventory Management application built with Rust and the Cu
 ## Technologies
 - **Rust**: For the application logic and data handling.
 - **Cursive**: For the text-based UI.
-- **Serde**: For JSON serialization and deserialization. [btw, i'd appreciate it if you'd tell me how to pronopunce it]
+- **Serde**: For JSON serialization and deserialization. [btw, i'd appreciate it if you'd tell me how to pronounce it]
 - **Arc and Mutex**: For safe, thread-safe shared ownership.
 
 ## Getting Started
