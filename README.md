@@ -23,7 +23,7 @@ Ensure that **Rust** is installed. You can install Rust by following the officia
 ### Installation
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/inventory-management.git
+   git clone 'put the link here'
    cd inventory-management
    ```
 
